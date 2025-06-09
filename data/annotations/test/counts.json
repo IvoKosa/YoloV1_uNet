@@ -1,0 +1,22 @@
+{
+    "car": {
+        "bbox_count": 561,
+        "image_count": 220
+    },
+    "pedestrian": {
+        "bbox_count": 836,
+        "image_count": 217
+    },
+    "bicyclist": {
+        "bbox_count": 196,
+        "image_count": 135
+    },
+    "motorcycle/scooter": {
+        "bbox_count": 6,
+        "image_count": 4
+    },
+    "truck/bus": {
+        "bbox_count": 86,
+        "image_count": 70
+    }
+}

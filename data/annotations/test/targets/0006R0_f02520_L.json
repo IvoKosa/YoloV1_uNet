@@ -1,0 +1,104 @@
+{
+    "images": [
+        {
+            "id": 105,
+            "file_name": "0006R0_f02520_L",
+            "width": 960,
+            "height": 720
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 105,
+            "category_id": 1,
+            "bbox": [
+                378,
+                357,
+                66,
+                74
+            ],
+            "area": 4884,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 105,
+            "category_id": 1,
+            "bbox": [
+                0,
+                337,
+                313,
+                167
+            ],
+            "area": 52271,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 105,
+            "category_id": 1,
+            "bbox": [
+                500,
+                333,
+                460,
+                263
+            ],
+            "area": 120980,
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 105,
+            "category_id": 2,
+            "bbox": [
+                461,
+                355,
+                21,
+                55
+            ],
+            "area": 1155,
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 105,
+            "category_id": 2,
+            "bbox": [
+                287,
+                341,
+                45,
+                48
+            ],
+            "area": 2160,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "car",
+            "supercategory": "none"
+        },
+        {
+            "id": 2,
+            "name": "pedestrian",
+            "supercategory": "none"
+        },
+        {
+            "id": 3,
+            "name": "bicyclist",
+            "supercategory": "none"
+        },
+        {
+            "id": 4,
+            "name": "motorcycle/scooter",
+            "supercategory": "none"
+        },
+        {
+            "id": 5,
+            "name": "truck/bus",
+            "supercategory": "none"
+        }
+    ]
+}

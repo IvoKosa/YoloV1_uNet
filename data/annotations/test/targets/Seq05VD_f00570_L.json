@@ -1,0 +1,78 @@
+{
+    "images": [
+        {
+            "id": 195,
+            "file_name": "Seq05VD_f00570_L",
+            "width": 960,
+            "height": 720
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 195,
+            "category_id": 1,
+            "bbox": [
+                459,
+                337,
+                44,
+                35
+            ],
+            "area": 1540,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 195,
+            "category_id": 2,
+            "bbox": [
+                576,
+                338,
+                11,
+                36
+            ],
+            "area": 396,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 195,
+            "category_id": 2,
+            "bbox": [
+                540,
+                338,
+                9,
+                25
+            ],
+            "area": 225,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "car",
+            "supercategory": "none"
+        },
+        {
+            "id": 2,
+            "name": "pedestrian",
+            "supercategory": "none"
+        },
+        {
+            "id": 3,
+            "name": "bicyclist",
+            "supercategory": "none"
+        },
+        {
+            "id": 4,
+            "name": "motorcycle/scooter",
+            "supercategory": "none"
+        },
+        {
+            "id": 5,
+            "name": "truck/bus",
+            "supercategory": "none"
+        }
+    ]
+}

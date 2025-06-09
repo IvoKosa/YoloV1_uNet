@@ -1,0 +1,91 @@
+{
+    "images": [
+        {
+            "id": 299,
+            "file_name": "Seq05VD_f01590_L",
+            "width": 960,
+            "height": 720
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 299,
+            "category_id": 1,
+            "bbox": [
+                504,
+                345,
+                33,
+                35
+            ],
+            "area": 1155,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 299,
+            "category_id": 1,
+            "bbox": [
+                452,
+                343,
+                26,
+                24
+            ],
+            "area": 624,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 299,
+            "category_id": 2,
+            "bbox": [
+                392,
+                329,
+                24,
+                73
+            ],
+            "area": 1752,
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 299,
+            "category_id": 2,
+            "bbox": [
+                617,
+                328,
+                22,
+                70
+            ],
+            "area": 1540,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "car",
+            "supercategory": "none"
+        },
+        {
+            "id": 2,
+            "name": "pedestrian",
+            "supercategory": "none"
+        },
+        {
+            "id": 3,
+            "name": "bicyclist",
+            "supercategory": "none"
+        },
+        {
+            "id": 4,
+            "name": "motorcycle/scooter",
+            "supercategory": "none"
+        },
+        {
+            "id": 5,
+            "name": "truck/bus",
+            "supercategory": "none"
+        }
+    ]
+}

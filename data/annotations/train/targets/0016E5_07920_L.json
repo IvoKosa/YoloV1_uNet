@@ -1,0 +1,169 @@
+{
+    "images": [
+        {
+            "id": 196,
+            "file_name": "0016E5_07920_L",
+            "width": 960,
+            "height": 720
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 196,
+            "category_id": 1,
+            "bbox": [
+                412,
+                369,
+                11,
+                18
+            ],
+            "area": 198,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 196,
+            "category_id": 1,
+            "bbox": [
+                367,
+                355,
+                16,
+                34
+            ],
+            "area": 544,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 196,
+            "category_id": 1,
+            "bbox": [
+                490,
+                352,
+                68,
+                61
+            ],
+            "area": 4148,
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 196,
+            "category_id": 2,
+            "bbox": [
+                602,
+                341,
+                22,
+                61
+            ],
+            "area": 1342,
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 196,
+            "category_id": 2,
+            "bbox": [
+                656,
+                340,
+                18,
+                67
+            ],
+            "area": 1206,
+            "iscrowd": 0
+        },
+        {
+            "id": 6,
+            "image_id": 196,
+            "category_id": 2,
+            "bbox": [
+                356,
+                335,
+                13,
+                23
+            ],
+            "area": 299,
+            "iscrowd": 0
+        },
+        {
+            "id": 7,
+            "image_id": 196,
+            "category_id": 2,
+            "bbox": [
+                741,
+                331,
+                19,
+                107
+            ],
+            "area": 2033,
+            "iscrowd": 0
+        },
+        {
+            "id": 8,
+            "image_id": 196,
+            "category_id": 3,
+            "bbox": [
+                328,
+                336,
+                44,
+                137
+            ],
+            "area": 6028,
+            "iscrowd": 0
+        },
+        {
+            "id": 9,
+            "image_id": 196,
+            "category_id": 3,
+            "bbox": [
+                378,
+                310,
+                38,
+                160
+            ],
+            "area": 6080,
+            "iscrowd": 0
+        },
+        {
+            "id": 10,
+            "image_id": 196,
+            "category_id": 5,
+            "bbox": [
+                418,
+                314,
+                52,
+                65
+            ],
+            "area": 3380,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "car",
+            "supercategory": "none"
+        },
+        {
+            "id": 2,
+            "name": "pedestrian",
+            "supercategory": "none"
+        },
+        {
+            "id": 3,
+            "name": "bicyclist",
+            "supercategory": "none"
+        },
+        {
+            "id": 4,
+            "name": "motorcycle/scooter",
+            "supercategory": "none"
+        },
+        {
+            "id": 5,
+            "name": "truck/bus",
+            "supercategory": "none"
+        }
+    ]
+}

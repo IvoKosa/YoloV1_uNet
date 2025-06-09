@@ -1,0 +1,24 @@
+preprocessor_params:
+  class_RGB_dict: 
+    'car':                [64, 0, 128]
+    'pedestrian':         [64, 64, 0]
+    'bicyclist':          [0, 128, 192]
+    'motorcycle/scooter': [192, 0, 192]
+    'truck/bus':          [192, 128, 192]
+
+training_params:
+  root_dir: '/cs/student/projects1/rai/2024/ivokosa/object_detection/src/data'
+  epochs: 50
+  batch_size: 10
+  transforms: False
+  learning_rate: 0.001
+  segmentation_loss_weight: 1.0
+  detection_loss_weight: 1.0
+  shuffle: True
+  num_workers: 4
+  early_stopping: 50
+  low_instance_cls: [4, 5]
+  flip_prob: 0.7
+  rot_prob: 0.6
+  base_flip_prob: 0.0
+  base_rot_prob: 0.0
