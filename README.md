@@ -1,22 +1,4 @@
-### COMP0248 Coursework 1 Ivo Kosa
-
-The project folder is presented under the following file structure. Please change the directory variables marked:
-
-project_ivokosa
-├── data
-│   ├── annotations
-│   └── Camvid (Not Included)
-├── src
-│   ├── config.yaml [Change root_dir to your data folder]
-│   ├── dataloader.py
-│   ├── loss.py
-│   ├── model.py
-│   ├── test.py
-│   ├── train.py
-│   └── utils.py [Change line 95 to your config.yaml file]
-├── results
-├── weights
-└── requirements.txt
+### YoloV1 UNet Semantic Segmentation Project
 
 ## Running Instructions:
 
