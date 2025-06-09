@@ -1,18 +1,18 @@
-### YoloV1 UNet Semantic Segmentation Project
+# YoloV1 UNet Semantic Segmentation Project
 
 ## Running Instructions:
 
-# Installing Requirements
+### Installing Requirements
 Create a new virtual environment and run the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# Generate annotations:
+### Generate annotations:
 The annotations used in obtaining the results have already been included in this project, but if you want to generate them again, please run the dataloader.py python file, ensuring that the CamVid_manager() function has been uncommented and the two directory variables have been changed as shown above
 
-# Training the model:
+### Training the model:
 Modify any desired hyperparameters in the training_params section of config.yaml and then simply run the train.py file. The model weights will then be saved to your current working directory:
 
 - root_dir: [str] directory of the data folder
